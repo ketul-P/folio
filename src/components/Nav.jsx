@@ -1,5 +1,4 @@
 import styles from './Nav.module.css';
-import { personal } from '../data';
 
 const links = [
   { href: '#summary', label: 'About' },
@@ -12,7 +11,6 @@ const links = [
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <div className={styles.logo}>{personal.name.split(' ').map(n => n[0]).join('')}_</div>
       <ul className={styles.links}>
         {links.map(l => (
           <li key={l.href}>
