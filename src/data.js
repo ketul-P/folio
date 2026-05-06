@@ -1,39 +1,41 @@
 export const personal = {
-  name: "Alex Morgan",
+  name: "Ketul Patel",
   title: "Software Engineer",
-  tagline: "Building scalable systems, clean APIs, and things that don't break at 3am.",
+  tagline: "C++/Python, Backend and AI-Driven System",
   available: true,
   linkedin: "https://linkedin.com/in/yourprofile",
-  email: "alex.morgan@email.com",
+  email: "patel.ketul0119@gmail.com",
 };
 
-export const summary = `I'm a full-stack software engineer with 5+ years of experience designing and shipping production-grade applications. I specialize in building distributed systems, developer tooling, and data-intensive backend services that scale. I care deeply about clean code, thoughtful architecture, and the kind of software that other engineers actually enjoy working with. When I'm not pushing commits, I'm contributing to open source, reading compiler books, or pretending my side projects will ship this quarter.`;
+export const summary = `New graduate Software Engineer with experience working on 
+                        Electronic Health Records, debugging legacy code to improve performance 
+                        and resolve critical issues. 
+                        Recently, I've focused my attention to studying and developing AI-driven solutions 
+                        that help improve existing workflows, also upskilling with an increasingly 
+                        AI-centric market. I'm personally more interested in networking and 
+                        telecom, and how intelligent systems are shaping the 
+                        future of connectivity. I'm, passionate about technology in general, someone who 
+                        enjoy diving into complex problems often with a strong cup of coffee on the side.`;
 
 export const experience = [
   {
-    date: "2022 — Present",
-    role: "Senior Software Engineer",
-    company: "Acme Corp",
+    date: "2021 - 2022",
+    role: "Junior Software Engineer",
+    company: "Meditab Software",
     type: "Full-time",
-    description: "Led the re-architecture of the core data pipeline, reducing latency by 60%. Designed and implemented a multi-tenant API gateway serving 50M+ requests/day. Mentored 3 junior engineers and drove adoption of internal platform tooling across 4 teams.",
-    tags: ["Go", "Kubernetes", "PostgreSQL", "gRPC", "Kafka"],
+    description: "Learned and gained experience working on legacy systems on Powerbuiler. dfdfd",
+    tags: ["PowerBuilder", "EMR", "SQL", "HIPPA", "Powershell"],
   },
+  
   {
-    date: "2020 — 2022",
-    role: "Software Engineer",
-    company: "Startup Inc.",
-    type: "Full-time",
+    date: "2021 — 2021",
+    role: "Verilog Design Intern",
+    company: "CHARUSAT",
+    type: "Part-time",
     description: "Built the company's first CI/CD pipeline and developer platform from scratch. Owned the billing and subscription microservice end-to-end, integrating Stripe and handling 99.9% uptime SLA.",
-    tags: ["TypeScript", "Node.js", "React", "AWS", "Terraform"],
+    tags: ["Verilog", "VHDL", "FPGA", "Proteus"],
   },
-  {
-    date: "2019 — 2020",
-    role: "Software Engineer Intern",
-    company: "Tech Agency",
-    type: "Internship",
-    description: "Developed internal dashboard tooling used by 200+ employees. Fixed critical bugs in a legacy Rails monolith and helped migrate key modules to a modern REST API.",
-    tags: ["Ruby on Rails", "Python", "MySQL"],
-  },
+
 ];
 
 export const education = [
