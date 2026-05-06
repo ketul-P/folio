@@ -1,9 +1,9 @@
 export const personal = {
   name: "Ketul Patel",
   title: "Software Engineer",
-  tagline: "C++/Python, Backend and AI-Driven System",
+  tagline: "",
   available: true,
-  linkedin: "https://linkedin.com/in/yourprofile",
+  linkedin: "https://linkedin.com/in/ketul-patel-69a3181b7",
   email: "patel.ketul0119@gmail.com",
 };
 
@@ -40,26 +40,24 @@ export const experience = [
 
 export const education = [
   {
-    date: "2015 — 2019",
-    degree: "B.Sc. Computer Science",
-    school: "University of Placeholder",
-    location: "Toronto, ON",
-    description: "Graduated with Honours. Specialized in systems programming and distributed computing. Thesis: Optimizing Cache Invalidation in Multi-Region Distributed Systems.",
-    tags: ["GPA 3.9 / 4.0", "Dean's List", "Systems Track"],
+    date: "2023 — 2025",
+    degree: "Masters in Electrical and Computer Engineering",
+    school: "University of Ottawa",
+    location: "Ottawa, ON",
+    tags: ["GPA: 8.3"],
   },
   {
-    date: "2024",
-    degree: "AWS Solutions Architect — Associate",
-    school: "Amazon Web Services",
-    location: "Certification",
-    description: "Certified in designing distributed, scalable, and highly available systems on AWS.",
-    tags: [],
+    date: "2018-2022",
+    degree: "Bachelors in Electronics and Communication Engineering",
+    school: "Charotar University of Science and Technology",
+    location: "Gujarat, India",
+    tags: ["GPA: 8.5"],
   },
 ];
 
 export const skills = [
   { category: "Languages", items: ["Go", "TypeScript / JavaScript", "Python", "Rust", "SQL"] },
-  { category: "Frontend", items: ["React / Next.js", "HTML / CSS", "Tailwind CSS", "GraphQL"] },
+  { category: "Frontend", items: ["React / Next.js", "HTML / CSS", "Tailwind CSS"] },
   { category: "Backend & APIs", items: ["Node.js", "gRPC / REST", "Kafka / RabbitMQ", "Redis"] },
   { category: "Infrastructure", items: ["AWS / GCP", "Docker / Kubernetes", "Terraform", "GitHub Actions"] },
   { category: "Databases", items: ["PostgreSQL", "MongoDB", "DynamoDB", "ClickHouse"] },
