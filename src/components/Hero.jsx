@@ -8,7 +8,7 @@ const LinkedInIcon = () => (
 );
 
 const EmailIcon = () => (
-  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" stroke="Grey" strokeWidth="3">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
     <polyline points="22,6 12,13 2,6" />
   </svg>
@@ -21,14 +21,14 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.inner}>
-        {personal.available && (
-          <div className={styles.tag}>Available for Opportunities</div>
-        )}
+
         <h1 className={styles.name}>
           {first}<br />
           <span>{last}.</span>
         </h1>
+
         <p className={styles.sub}>{personal.tagline}</p>
+        
         <div className={styles.buttons}>
           <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
             <LinkedInIcon /> LinkedIn
@@ -37,6 +37,7 @@ export default function Hero() {
             <EmailIcon /> {personal.email}
           </a>
         </div>
+      
       </div>
     </section>
   );

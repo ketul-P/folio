@@ -7,7 +7,7 @@ export const personal = {
   email: "patel.ketul0119@gmail.com",
 };
 
-export const summary = `New graduate Software Engineer with experience working on 
+export const summary = `Newly graduated Software Engineer with experience working on 
                         Electronic Health Records, debugging legacy code to improve performance 
                         and resolve critical issues. 
                         Recently, I've focused my attention to studying and developing AI-driven solutions 
@@ -15,7 +15,7 @@ export const summary = `New graduate Software Engineer with experience working o
                         AI-centric market. I'm personally more interested in networking and 
                         telecom, and how intelligent systems are shaping the 
                         future of connectivity. I'm, passionate about technology in general, someone who 
-                        enjoy diving into complex problems often with a strong cup of coffee on the side.`;
+                        enjoy diving into complex problems often with a strong cup of coffee on the side :)`;
 
 export const experience = [
   {

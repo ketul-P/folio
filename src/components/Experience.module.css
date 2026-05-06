@@ -12,7 +12,10 @@
   color: var(--muted);
   font-size: 0.78rem;
   padding-top: 0.25rem;
+  padding-right: 0.50rem;
   letter-spacing: 0.04em;
+  text-align: right;
+  border-color: blue;
 }
 
 .role {
