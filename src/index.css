@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --bg:       #0a0a0f;
-  --bg2:      #111118;
-  --bg3:      #1a1a24;
-  --accent:   #00e5ff;
-  --accent2:  #ff3864;
+  --bg2:      #464647;
+  --bg3:      #000000;
+  --accent:   #ff9946;
+  --accent2:  #f3721c;
   --text:     #e8e8f0;
-  --muted:    #6b6b80;
-  --border:   rgba(0, 229, 255, 0.12);
-  --font-head: 'Syne', sans-serif;
-  --font-mono: 'DM Mono', monospace;
+  --muted:    #7b7f81;
+  --border:   rgb(94, 96, 96);
+  --font-head: 'Montserrat', monospace;
+  --font-mono: 'Montserrat', monospace;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
