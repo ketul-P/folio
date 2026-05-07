@@ -12,13 +12,8 @@ export default function Education() {
       {education.map((edu, i) => (
         <div key={i} className={styles.item}>
           
-          <div>
-            <div className={styles.date}>{edu.date}</div>
-            <div className={styles.key}></div>
-          </div>
+          <div className={styles.date}>{edu.date}</div>
           
-          <div className={styles.Tag}></div>
-
           <div>
             <div className={styles.degree}>{edu.degree}</div>
             <div className={styles.school}>{edu.school} · {edu.location}</div>

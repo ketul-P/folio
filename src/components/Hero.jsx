@@ -24,7 +24,7 @@ export default function Hero() {
 
         <h1 className={styles.name}>
           {first}<br />
-          <span>{last}.</span>
+          <span>{last}</span>
         </h1>
 
         <p className={styles.sub}>{personal.tagline}</p>
