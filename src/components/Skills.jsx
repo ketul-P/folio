@@ -6,9 +6,8 @@ import { skills } from '../data';
 export default function Skills() {
   return (
     <SectionWrapper id="skills">
-      <div className={sectionStyles.sectionLabel}>// 04 — Skills</div>
       <h2 className={sectionStyles.sectionTitle}>Technical Stack</h2>
-      <div className={sectionStyles.divider} />
+    
       <div className={styles.grid}>
         {skills.map((group) => (
           <div key={group.category} className={styles.card}>
