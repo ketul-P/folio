@@ -8,12 +8,12 @@ export default function Projects() {
   return (
     <SectionWrapper id="projects">
       
-      <h2 className={sectionStyles.sectionTitle}>Selected Work</h2>
+      <h2 className={sectionStyles.sectionTitle}>Projects</h2>
 
       <div className={styles.grid}>
         {projects.map((proj) => (
           <div key={proj.title} className={styles.card}>
-            <div className={styles.num}>{proj.num}</div>
+            
             <div className={styles.title}>{proj.title}</div>
             <p className={styles.desc}>{proj.description}</p>
             <div className={styles.tags}>
