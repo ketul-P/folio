@@ -7,9 +7,9 @@ import { projects } from '../data';
 export default function Projects() {
   return (
     <SectionWrapper id="projects">
-      <div className={sectionStyles.sectionLabel}>// 05 — Projects</div>
+      
       <h2 className={sectionStyles.sectionTitle}>Selected Work</h2>
-      <div className={sectionStyles.divider} />
+
       <div className={styles.grid}>
         {projects.map((proj) => (
           <div key={proj.title} className={styles.card}>
