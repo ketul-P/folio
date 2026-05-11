@@ -31,7 +31,7 @@
 
 .divider {
   height: 1px;
-  background: linear-gradient(90deg, var(--accent) 0%, transparent 60%);
+  background: linear-gradient(90deg, var(--accent2) 0%, var(--bg3) 60%);
   margin-bottom: 3rem;
   opacity: 0.3;
 }

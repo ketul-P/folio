@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <SectionWrapper id="experience">
       <h2 className={sectionStyles.sectionTitle}>Work History</h2>
-      
+      <div className={sectionStyles.divider}></div>
       {experience.map((exp, i) => (
         <div key={i} className={styles.item}>
           <div className={styles.date}>{exp.date}</div>
