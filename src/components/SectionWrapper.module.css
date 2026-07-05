@@ -27,11 +27,12 @@
   letter-spacing: -0.03em;
   margin-bottom: 2.5rem;
   line-height: 1.1;
+  color: var(--accent2);
 }
 
 .divider {
   height: 1px;
-  background: linear-gradient(90deg, var(--accent2) 0%, var(--bg) 60%);
+  background: linear-gradient(90deg, var(--accent2) 15%, var(--bg) 40%);
   margin-bottom: 3rem;
-  opacity: 0.3;
+  opacity: 0.5;
 }

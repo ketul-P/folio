@@ -90,14 +90,15 @@
 
 .btnPrimary {
   background: transparent;
-  color: var(--accent);
-  border: 1px solid var(--accent);
+  color: var(--accent2);
+  border: 1px solid var(--accent2);
 }
 
 .btnPrimary:hover {
   background: var(--accent2);
   color: var(--bg);
   transform: translateY(-2px);
+  border: 1px solid var(--bg);
 }
 
 @keyframes fadeUp {

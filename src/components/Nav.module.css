@@ -26,8 +26,8 @@
 }
 
 .links a {
-  color: var(--accent);
-  font-size: 0.78rem;
+  color: var(--muted);
+  font-size: 0.86rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.2s;

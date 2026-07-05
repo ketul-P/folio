@@ -3,5 +3,5 @@
   color: var(--text);
   max-width: 680px;
   line-height: 1.9;
-  text-justify: auto;
+  text-justify: inter-word;
 }
