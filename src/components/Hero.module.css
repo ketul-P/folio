@@ -9,13 +9,6 @@
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(330deg, var(--bg) 40%,  var(--bg) 100%);
-}
-
 .hero::after {
   content: '';
   position: absolute;
@@ -80,8 +73,7 @@
   animation: fadeUp 0.9s 0.4s ease both;
 }
 
-.btnPrimary,
-.btnOutline {
+.btnPrimary{
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -97,24 +89,12 @@
 }
 
 .btnPrimary {
-  background: var(--accent);
-  color: var(--bg);
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
 }
 
 .btnPrimary:hover {
-  background: var(--bg);
-  color: var(--accent);
-  border: var(--accent);
-  transform: translateY(-2px);
-}
-
-.btnOutline {
-  background: transparent;
-  color: var(--accent);
-  border: 1px solid var(--bg);
-}
-
-.btnOutline:hover {
   background: var(--accent2);
   color: var(--bg);
   transform: translateY(-2px);

@@ -33,7 +33,7 @@ export default function Hero() {
           <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
             <LinkedInIcon /> LinkedIn
           </a>
-          <a href={`mailto:${personal.email}`} className={styles.btnOutline}>
+          <a href={`mailto:${personal.email}`} className={styles.btnPrimary}>
             <EmailIcon /> {personal.email}
           </a>
         </div>
