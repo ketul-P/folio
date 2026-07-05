@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --bg:       #3c4756;
-  --bg2:      #272732;
-  --bg3:      #6d7988;
-  --accent:   #ce4f68;
-  --accent2:  #5aa4be;
-  --accent3:  #F28B6A;
-  --text:     #f3e4d7;
-  --muted:    #5b6062;
-  --border:   #6d7988;
+  --bg:       #323a45;
+  --bg2:       #262626;
+  --accent:   #ff3367;
+  --accent2:  #00b98d;
+  --text:     #fefefa;
+  --muted:    #d4d7da;
   --font-head: 'Montserrat', monospace;
   --font-mono: 'Montserrat', monospace;
 }

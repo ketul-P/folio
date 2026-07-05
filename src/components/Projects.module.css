@@ -18,8 +18,8 @@
 .card:hover {
   transform: translate(-4px);
   background: transparent;
-  border-color: var(--accent3);
-  color: var(--accent3)
+  border-color: var(--accent2);
+  color: var(--accent2)
 }
 
 .num {
