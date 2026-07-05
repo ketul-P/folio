@@ -8,7 +8,7 @@
   padding: 1.2rem 4rem;
   background: rgba(10, 10, 15, 0.85);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--muted);
 }
 
 .logo {
@@ -26,14 +26,14 @@
 }
 
 .links a {
-  color: var(--muted);
+  color: var(--accent);
   font-size: 0.78rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.2s;
 }
 
-.links a:hover { color: var(--accent); }
+.links a:hover { color: var(--accent2); }
 
 @media (max-width: 640px) {
   .nav { padding: 1rem 1.5rem; }
