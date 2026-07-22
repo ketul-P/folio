@@ -46,7 +46,7 @@ export default function Hero() {
             <LinkedInIcon /> LinkedIn
           </a>
           <a href={`mailto:${personal.email}`} className={styles.btnPrimary}>
-            <EmailIcon /> {personal.email}
+            <EmailIcon /> Email
           </a>
         </div>
       

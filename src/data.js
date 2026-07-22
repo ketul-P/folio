@@ -7,7 +7,7 @@ export const personal = {
   email: "patel.ketul0119@gmail.com",
 };
 
-export const summary = `Newly graduated Software Engineer with experience working on 
+export const summary = `Software Engineer with experience working on 
                         Electronic Health Records, debugging legacy code to improve performance 
                         and resolve critical issues. 
 
@@ -22,20 +22,29 @@ export const summary = `Newly graduated Software Engineer with experience workin
 
 export const experience = [
   {
-    date: "2021 - 2022",
+    date: "OCT 2021 - SEPT 2022",
     role: "Junior Software Engineer",
     company: "Meditab Software",
     type: "Full-time",
-    description: "Learned and gained experience working on legacy systems on Powerbuiler. dfdfd",
-    tags: ["PowerBuilder", "EMR", "SQL", "HIPPA", "Powershell"],
+    description: `Developed and maintained enterprise healthcare software using PowerBuilder, C++, and SQL 
+                  within a large-scale legacy codebase, delivering new features, bug fixes, and performance enhancements.
+                  
+                  Optimized SQL stored procedures and database workflows, reducing query latency by 30% 
+                  and improving performance of data-intensive healthcare applications; supported CI/CD workflows using Git and Jenkins.
+                  
+                  Collaborated with cross-functional Agile teams throughout the SDLC, 
+                  including requirements analysis, implementation, troubleshooting production issues, and documentation for SaaS applications.`,
+    
+                  tags: ["PowerBuilder", "EMR", "SQL", "HIPPA", "Powershell"],
   },
   
   {
-    date: "2021 — 2021",
-    role: "Verilog Design Intern",
+    date: "APR 2020 - JUL 2020",
+    role: "Summer Research Intern",
     company: "CHARUSAT",
     type: "Part-time",
-    description: "Built the company's first CI/CD pipeline and developer platform from scratch. Owned the billing and subscription microservice end-to-end, integrating Stripe and handling 99.9% uptime SLA.",
+    description: `Researched I2C, SPI, and UART protocols, developing synthesizable Verilog RTL modules and simulation testbenches 
+                  while performing waveform-based timing analysis to verify functionality and improve hardware designs.`,
     tags: ["Verilog", "VHDL", "FPGA", "Proteus"],
   },
 
@@ -43,14 +52,14 @@ export const experience = [
 
 export const education = [
   {
-    date: "2023 — 2025",
+    date: "2023 - 2025",
     degree: "Masters in Electrical and Computer Engineering",
     school: "University of Ottawa",
     location: "Ottawa, ON",
     tags: ["GPA: 8.3"],
   },
   {
-    date: "2018-2022",
+    date: "2018 - 2022",
     degree: "Bachelors in Electronics and Communication Engineering",
     school: "Charotar University of Science and Technology",
     location: "Gujarat, India",

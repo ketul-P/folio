@@ -33,7 +33,7 @@
   transition: color 0.2s;
 }
 
-.links a:hover { color: var(--accent2); }
+.links a:hover { color: var(--accent); }
 
 @media (max-width: 640px) {
   .nav { padding: 1rem 1.5rem; }
