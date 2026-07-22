@@ -1,12 +1,10 @@
 .item {
   display: grid;
   grid-template-columns: 140px 1fr;
-  gap: 1rem 2rem;
+  gap: 1.25rem 2rem;
   padding: 2rem 0;
-  border-bottom: 1px solid var(--border);
 }
 
-.item:last-child { border-bottom: none; }
 
 .date {
   color: var(--accent2);
@@ -19,21 +17,21 @@
 
 .degree {
   font-family: var(--font-head);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .school {
   color: var(--accent);
-  font-size: 0.85rem;
-  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
 }
 
 .desc {
-  color: #9090a8;
+  color: var(--muted);
   font-size: 0.9rem;
-  margin-top: 0.4rem;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 .tags {

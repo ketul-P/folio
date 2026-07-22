@@ -11,7 +11,7 @@ export default function Summary() {
 
       <div className={styles.text}>
         {summary.map((item, index) => (
-            <p key={index}>{item}</p>
+            <p className={styles.textBox} key={index}>{item}</p>
           ))}
       </div>
     </SectionWrapper>
