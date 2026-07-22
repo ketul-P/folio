@@ -8,7 +8,7 @@ export default function Summary() {
     <SectionWrapper id="summary">
       <div className={sectionStyles.sectionLabel}></div>
       <h2 className={sectionStyles.sectionTitle}>Who I Am</h2>
-      <div className={sectionStyles.divider}></div>
+
       <div className={styles.text}>
         {summary.map((item, index) => (
             <p key={index}>{item}</p>

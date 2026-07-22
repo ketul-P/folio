@@ -1,7 +1,7 @@
 .text {
   font-size: 1.05rem;
   color: var(--text);
-  max-width: 720px;
+  max-width: 760px;
   line-height: 1.9;
   text-justify: inter-word;
   margin-bottom: 1.5rem;
