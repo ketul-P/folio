@@ -9,10 +9,12 @@
 .item:last-child { border-bottom: none; }
 
 .date {
-  color: var(--muted);
-  font-size: 0.78rem;
+  color: var(--accent2);
+  font-size: 0.8rem;
   padding-top: 0.25rem;
+  padding-right: 0.50rem;
   letter-spacing: 0.04em;
+  text-align: right;
 }
 
 .degree {
@@ -29,7 +31,7 @@
 
 .desc {
   color: #9090a8;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   margin-top: 0.4rem;
   line-height: 1.7;
 }
