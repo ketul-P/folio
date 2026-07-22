@@ -1,6 +1,6 @@
 import SectionWrapper from './SectionWrapper';
 import sectionStyles from './SectionWrapper.module.css';
-import Skillstyles from './Skills.module.css';
+import styles from './Skills.module.css';
 import { skills } from '../data';
 
 export default function Skills() {
