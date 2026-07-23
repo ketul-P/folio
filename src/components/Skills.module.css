@@ -7,7 +7,7 @@
 
 .card {
   background: var(--bg);
-  border: 1px solid var(--text);
+  border: 1px solid var(--muted);
   border-radius: 4px;
   padding: 1.2rem 1.4rem;
   transition: border-color 0.2s, transform 0.2s;
@@ -18,7 +18,7 @@
 }
 
 .category {
-  font-family: var(--font-head);
+  font-family: var(--text);
   font-size: 0.9rem;
   font-weight: 700;
   color: var(--accent);
@@ -35,7 +35,7 @@
 
 .list li {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--text);
 }
 
 .list li::before {
