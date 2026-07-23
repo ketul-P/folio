@@ -21,7 +21,7 @@
   font-family: var(--font-head);
   font-size: 0.9rem;
   font-weight: 700;
-  color: var(--accent2);
+  color: var(--accent);
   margin-bottom: 0.7rem;
   letter-spacing: 0.05em;
 }
@@ -40,5 +40,5 @@
 
 .list li::before {
   content: '> ';
-  color: var(--accent2);
+  color: var(--accent);
 }

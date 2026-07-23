@@ -1,7 +1,7 @@
 .item {
   display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 1.25rem 2rem;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem 2rem;
   padding: 1rem 0;
 }
 
@@ -12,7 +12,6 @@
   padding-right: 0.25rem;
   letter-spacing: 0.04em;
   text-align: right;
-  border: 1px solid purple;
 }
 
 .role {
@@ -20,7 +19,6 @@
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  border: 1px solid purple;
 }
 
 .company {
