@@ -16,8 +16,8 @@ export default function App() {
         <Summary />
         <Experience />
         <Education />
-        <Skills />
         <Projects />
+        <Skills />
       </main>
       <Footer />
     </>
