@@ -9,8 +9,8 @@
   position: relative;
   flex: 1 1 380px;
   min-width: 380px;
-  height: 90px;
-  border-radius: 8px;
+  height: 60px;
+  border-radius: 12px;
   margin: 10px 0px;
   overflow: hidden;
   background-size: cover;

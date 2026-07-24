@@ -1,6 +1,6 @@
 .item {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 175px 1fr;
   gap: 1rem 2rem;
   padding: 1rem 0;
 }
