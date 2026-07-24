@@ -7,9 +7,9 @@
 
 .card {
   position: relative;
-  flex: 1 1 380px;
+  flex: 1 1 120px;
   min-width: 380px;
-  height: 60px;
+  height: 120px;
   border-radius: 12px;
   margin: 10px 0px;
   overflow: hidden;
@@ -76,7 +76,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .links {
