@@ -11,14 +11,6 @@
   border-bottom: 1px solid var(--muted);
 }
 
-.logo {
-  font-family: var(--font-head);
-  font-weight: 800;
-  font-size: 1.1rem;
-  color: var(--accent);
-  letter-spacing: -0.02em;
-}
-
 .links {
   display: flex;
   gap: 2.5rem;
@@ -27,13 +19,16 @@
 
 .links a {
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.95rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.2s;
 }
 
-.links a:hover { color: var(--accent); }
+.links a:hover { 
+  color: var(--accent);
+  font-weight: 700;
+}
 
 @media (max-width: 640px) {
   .nav { padding: 1rem 1.5rem; }

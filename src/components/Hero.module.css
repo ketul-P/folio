@@ -58,8 +58,8 @@
 
 .sub {
   margin-top: 1.5rem;
-  font-size: 1rem;
-  color: var(--muted);
+  font-size: 3rem;
+  color: var(--accent);
   max-width: 480px;
   margin-inline: auto;
   animation: fadeUp 0.9s 0.3s ease both;
@@ -81,7 +81,7 @@
   padding: 0.75rem 1.8rem;
   border-radius: 3px;
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.06em;
   font-weight: 500;
   transition: all 0.22s;
