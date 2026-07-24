@@ -1,7 +1,7 @@
 export const personal = {
   name: "Ketul Patel",
   title: "Software Engineer",
-  tagline: "",
+  tagline: "#OpenToWork!",
   available: true,
   linkedin: "https://linkedin.com/in/ketul-patel-69a3181b7",
   email: "patel.ketul0119@gmail.com",
@@ -25,16 +25,14 @@ export const experience = [
     role: "Junior Software Engineer",
     company: "Meditab Software",
     type: "Full-time",
-    description: `Developed and maintained enterprise healthcare software using PowerBuilder, C++, and SQL 
-                  within a large-scale legacy codebase, delivering new features, bug fixes, and performance enhancements.
+    description: [`Developed enterprise healthcare software using PowerBuilder, C++, and SQL 
+                  within a large-scale legacy codebase, to deliver new features and bug fixes.`,
                   
-                  Optimized SQL stored procedures and database workflows, reducing query latency by 30% 
-                  and improving performance of data-intensive healthcare applications; supported CI/CD workflows using Git and Jenkins.
+                  `Optimized queries in SQL, reducing latency by 30% to drive performance of data-intensive healthcare applications.`,
                   
-                  Collaborated with cross-functional Agile teams throughout the SDLC, 
-                  including requirements analysis, implementation, troubleshooting production issues, and documentation for SaaS applications.`,
+                  `Collaborated with cross-functional teams, and gained experience in CI/CD with GitLab and Jenkins.`],
     
-                  tags: ["PowerBuilder", "EMR", "SQL", "HIPPA", "Powershell"],
+    tags: ["PowerBuilder", "EMR", "SQL", "HIPPA", "Powershell"],
   },
   
   {
@@ -42,8 +40,8 @@ export const experience = [
     role: "Summer Research Intern",
     company: "CHARUSAT",
     type: "Part-time",
-    description: `Researched I2C, SPI, and UART protocols, developing synthesizable Verilog RTL modules and simulation testbenches 
-                  while performing waveform-based timing analysis to verify functionality and improve hardware designs.`,
+    description: [`Researched I2C, SPI, and UART protocols, developing synthesizable Verilog RTL modules and simulation testbenches 
+                  while performing waveform-based timing analysis to verify functionality and improve hardware designs.`],
     tags: ["Verilog", "VHDL", "FPGA", "Proteus"],
   },
 

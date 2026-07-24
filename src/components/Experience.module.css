@@ -40,6 +40,15 @@
   margin-top: 0.8rem;
 }
 
+.listItem {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 640px) {
   .item { grid-template-columns: 1fr; gap: 0.3rem; }
   .date { padding-top: 0; }

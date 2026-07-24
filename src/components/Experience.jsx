@@ -21,8 +21,16 @@ export default function Experience() {
            
             <div className={styles.company}>{exp.company}  ·  {exp.type}</div>
            
-            <p className={styles.desc}>{exp.description}</p>
-           
+            <div className={styles.desc}>
+              <ul className={styles.desc}>
+                {experience.description.map((item, index) => (
+                  <li key={index} className={styles.listItem}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+                      
             <div className={styles.tags}>
               {exp.tags.map(t => <Tag key={t} label={t} />)}
             </div>
