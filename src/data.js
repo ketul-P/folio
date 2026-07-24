@@ -81,7 +81,7 @@ export const projects = [
     tags: ["Go", "Time-Series", "Open Source"],
     github: "https://github.com/yourprofile/flowdb",
     demo: null,
-    image: "public/lung_cancer.jpeg",
+    image: "./public/lung_cancer.jpeg",
   },
   {
     num: "Project_02",
@@ -90,7 +90,7 @@ export const projects = [
     tags: ["TypeScript", "Terraform", "DevTools"],
     github: "https://github.com/yourprofile/deployfast",
     demo: null,
-    image: "public/stock_bot.jpeg",
+    image: "./public/stock_bot.jpeg",
   },
   {
     num: "Project_03",

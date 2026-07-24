@@ -7,7 +7,7 @@
 
 .date {
   color: var(--accent2);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-top: 0.25rem;
   padding-right: 0.25rem;
   letter-spacing: 0.04em;
@@ -16,14 +16,14 @@
 
 .degree {
   font-family: var(--font-head);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 .school {
   color: var(--accent);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0.6rem;
 }
 

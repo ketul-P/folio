@@ -19,10 +19,10 @@
 
 .links a {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  transition: color 0.2s;
+  transition: color 0.3s;
 }
 
 .links a:hover { 
