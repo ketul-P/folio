@@ -23,7 +23,7 @@ export default function Experience() {
            
             <div className={styles.desc}>
               <ul className={styles.desc}>
-                {experience.description.map((item, index) => (
+                {exp.description.map((item, index) => (
                   <li key={index} className={styles.listItem}>
                     {item}
                   </li>

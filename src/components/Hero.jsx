@@ -38,8 +38,6 @@ export default function Hero() {
           {first}<br />
           <span>{last}</span>
         </h1>
-
-        <p className={styles.sub}>{personal.tagline}</p>
         
         <div className={styles.buttons}>
           <a href={personal.linkedin} target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>
@@ -48,6 +46,10 @@ export default function Hero() {
           <a href={`mailto:${personal.email}`} className={styles.btnPrimary}>
             <EmailIcon /> Email
           </a>
+        </div>
+
+        <div class>
+          <p className={styles.sub}>{personal.tagline}</p>
         </div>
       
       </div>
